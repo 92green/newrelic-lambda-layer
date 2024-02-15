@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.1 - [02-15-2024] - davidlramirez95
+### Revert
+- Revert breaking changes due to issues on deployment
+
 ## 0.1.0 - [02-15-2024] - davidlramirez95
 ### Added
 - Support for defining a specific layer through `layer_version`
