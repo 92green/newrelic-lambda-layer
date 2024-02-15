@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 0.0.2 - [02-15-2024] - davidlramirez95
+## 0.1.0 - [02-15-2024] - davidlramirez95
 ### Added
 - Support for defining a specific layer through `layer_version`
 
