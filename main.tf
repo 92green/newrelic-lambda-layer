@@ -1,3 +1,12 @@
+terraform {
+  required_providers {
+    curl = {
+      source  = "anschoewe/curl"
+      version = "~> 1.0.2"
+    }
+  }
+}
+
 variable "layer_version" {
   default = "NewRelicNodeJS18X"
 }
