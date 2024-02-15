@@ -1,7 +1,7 @@
 output "node_lambda_layer" {
-  value = local.node_lambda_layer[0]["LatestMatchingVersion"]["LayerVersionArn"]
+  value = "arn:aws:lambda:ap-southeast-2:451483290750:layer:NewRelicNodeJS18X:60"
 }
 
 output "node_arm_lambda_layer" {
-  value = local.node_arm_lambda_layer[0]["LatestMatchingVersion"]["LayerVersionArn"]
+  value = "arn:aws:lambda:ap-southeast-2:451483290750:layer:NewRelicNodeJS18XARM64:60"
 }
